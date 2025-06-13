@@ -1,0 +1,12 @@
+player_1=input("choose rock,paper or scissors : ")
+print(f"player 1 chose {player_1}")
+player_2=input("choose rock,paper or scissors : ")
+print(f"player 2 chose {player_2}")
+if player_1=="rock" and player_2=="paper" : print("paper covers rock, Player_2 wins")  
+elif player_1=="rock" and player_2=="scissors" : print("rock crushes scissors, player_1 wins")
+elif player_1=="paper" and player_2=="rock" : print("paper covers rock, player_1 wins")
+elif player_1=="paper" and player_2=="scissors" : print("scissors cut paper, player_2 wins")
+elif player_1=="scissors" and player_2=="rock" : print("rock crushes scissors, player_2 wins")
+elif player_1=="scissors" and player_2=="paper" : print("scissors cut paper, player_1 wins")
+else : print("it's a tie, choose again !")
+fruits=[]
